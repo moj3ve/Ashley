@@ -1,0 +1,390 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>items</key>
+	<array>
+
+		<dict>
+            <key>action</key>
+            <string>twitterShy</string>
+            <key>cell</key>
+            <string>PSButtonCell</string>
+            <key>label</key>
+            <string>@ShyMemoriees</string>
+            <key>cellClass</key>
+            <string>HBTwitterCell</string>
+            <key>label</key>
+            <string>ShyMemoriees</string>
+            <key>user</key>
+            <string>ShyMemoriees</string>
+        </dict>
+		<dict>
+            <key>action</key>
+            <string>twittermrg</string>
+            <key>cell</key>
+            <string>PSButtonCell</string>
+            <key>label</key>
+            <string>@MrGcGamer</string>
+            <key>cellClass</key>
+            <string>HBTwitterCell</string>
+            <key>label</key>
+            <string>MrGcGamer</string>
+            <key>user</key>
+            <string>MrGcGamer</string>
+        </dict>
+		<dict>
+			<key>cell</key>
+			<string>PSSwitchCell</string>
+			<key>default</key>
+			<true/>
+			<key>defaults</key>
+			<string>me.shymemoriees.ashleypreferences</string>
+			<key>key</key>
+			<string>Enabled</string>
+			<key>label</key>
+			<string>Enabled (Respring required)</string>
+			<key>PostNotification</key>
+			<string>me.shymemoriees.ashleypreferences/ReloadPrefs</string>
+		</dict>
+
+		<dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+			<key>label</key>
+			<string>What Should Ashley Remind You Of?</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSEditTextCell</string>
+			<key>default</key>
+			<string>Hiii, Ashley here</string>
+			<key>placeholder</key>
+			<string>Example: Buy Flowers</string>
+			<key>defaults</key>
+			<string>me.shymemoriees.ashleypreferences</string>
+			<key>label</key>
+			<string>Reminder:</string>
+			<key>key</key>
+			<string>Text</string>
+			<key>PostNotification</key>
+			<string>me.shymemoriees.ashleypreferences/ReloadPrefs</string>
+		</dict>
+
+		<dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+			<key>label</key>
+			<string>Where Should Ashley Remind You?</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSSwitchCell</string>
+			<key>default</key>
+			<true/>
+			<key>defaults</key>
+			<string>me.shymemoriees.ashleypreferences</string>
+			<key>key</key>
+			<string>swipeUpToUnlockReminder</string>
+			<key>label</key>
+			<string>Swipe up to unlock</string>
+			<key>PostNotification</key>
+			<string>me.shymemoriees.ashleypreferences/ReloadPrefs</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSSwitchCell</string>
+			<key>default</key>
+			<false/>
+			<key>defaults</key>
+			<string>me.shymemoriees.ashleypreferences</string>
+			<key>key</key>
+			<string>noOlderNotifsTextReminder</string>
+			<key>label</key>
+			<string>No Older Notifications</string>
+			<key>PostNotification</key>
+			<string>me.shymemoriees.ashleypreferences/ReloadPrefs</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSSwitchCell</string>
+			<key>default</key>
+			<false/>
+			<key>defaults</key>
+			<string>me.shymemoriees.ashleypreferences</string>
+			<key>key</key>
+			<string>TouchIDorPasscode</string>
+			<key>label</key>
+			<string>TouchID or Enter Passcode</string>
+			<key>PostNotification</key>
+			<string>me.shymemoriees.ashleypreferences/ReloadPrefs</string>
+		</dict>
+
+		<dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+			<key>label</key>
+			<string>Enable Shake Gesture For Quick Access?</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSSwitchCell</string>
+			<key>default</key>
+			<true/>
+			<key>defaults</key>
+			<string>me.shymemoriees.ashleypreferences</string>
+			<key>key</key>
+			<string>shakeGesture</string>
+			<key>label</key>
+			<string>Shake Gesture</string>
+			<key>PostNotification</key>
+			<string>me.shymemoriees.ashleypreferences/ReloadPrefs</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSSwitchCell</string>
+			<key>default</key>
+			<false/>
+			<key>defaults</key>
+			<string>me.shymemoriees.ashleypreferences</string>
+			<key>key</key>
+			<string>gestureEverywhere</string>
+			<key>label</key>
+			<string>Shake Home-/LockScreen?</string>
+			<key>PostNotification</key>
+			<string>me.shymemoriees.ashleypreferences/ReloadPrefs</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSSwitchCell</string>
+			<key>default</key>
+			<true/>
+			<key>defaults</key>
+			<string>me.shymemoriees.ashleypreferences</string>
+			<key>key</key>
+			<string>gestureOnlyLockscreen</string>
+			<key>label</key>
+			<string>Shake Only LockScreen?</string>
+			<key>PostNotification</key>
+			<string>me.shymemoriees.ashleypreferences/ReloadPrefs</string>
+		</dict>
+
+		<dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+			<key>label</key>
+			<string>Haptic Feedback?</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSSwitchCell</string>
+			<key>default</key>
+			<true/>
+			<key>defaults</key>
+			<string>me.shymemoriees.ashleypreferences</string>
+			<key>key</key>
+			<string>enableHaptics</string>
+			<key>label</key>
+			<string>Haptics</string>
+			<key>PostNotification</key>
+			<string>me.shymemoriees.ashleypreferences/ReloadPrefs</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSSwitchCell</string>
+			<key>default</key>
+			<true/>
+			<key>defaults</key>
+			<string>me.shymemoriees.ashleypreferences</string>
+			<key>key</key>
+			<string>enableHapticsAnimation</string>
+			<key>label</key>
+			<string>Haptic Animation</string>
+			<key>PostNotification</key>
+			<string>me.shymemoriees.ashleypreferences/ReloadPrefs</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSLinkListCell</string>
+			<key>default</key>
+			<integer>0</integer>
+			<key>detail</key>
+			<string>PSListItemsController</string>
+			<key>defaults</key>
+			<string>me.shymemoriees.ashleypreferences</string>
+			<key>label</key>
+			<string>Custom Haptic Strength:</string>
+			<key>key</key>
+			<string>hapticStrength</string>
+			<key>validValues</key>
+			<array>
+				<integer>0</integer>
+				<integer>1</integer>
+				<integer>2</integer>
+				<integer>3</integer>
+				<integer>4</integer>
+				<integer>5</integer>
+				<integer>6</integer>
+				<integer>7</integer>
+				<integer>8</integer>
+			</array>
+			<key>validTitles</key>
+			<array>
+				<string>None</string>
+				<string>Light: Haptic-Engine</string>
+				<string>Medium: Haptic-Engine</string>
+				<string>Heavy: Haptic-Engine</string>
+				<string>Light: Taptic-Engine</string>
+				<string>Medium: Taptic-Engine</string>
+				<string>Strong: Taptic-Engine</string>
+				<string>Soft: Taptic-Engine</string>
+				<string>Rigid: Taptic-Engine</string>
+			</array>
+			<key>PostNotification</key>
+			<string>me.shymemoriees.ashleypreferences/ReloadPrefs</string>
+		</dict>
+
+		<dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+			<key>label</key>
+			<string>Let Ashley Talk?</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSSwitchCell</string>
+			<key>default</key>
+			<true/>
+			<key>defaults</key>
+			<string>me.shymemoriees.ashleypreferences</string>
+			<key>key</key>
+			<string>allowAshleyToTalk</string>
+			<key>label</key>
+			<string>Allow Ashley To Talk</string>
+			<key>PostNotification</key>
+			<string>me.shymemoriees.ashleypreferences/ReloadPrefs</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSSwitchCell</string>
+			<key>default</key>
+			<false/>
+			<key>defaults</key>
+			<string>me.shymemoriees.ashleypreferences</string>
+			<key>key</key>
+			<string>disableHelloPhrase</string>
+			<key>label</key>
+			<string>Disable Hello Phrase</string>
+			<key>PostNotification</key>
+			<string>me.shymemoriees.ashleypreferences/ReloadPrefs</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSSwitchCell</string>
+			<key>default</key>
+			<false/>
+			<key>defaults</key>
+			<string>me.shymemoriees.ashleypreferences</string>
+			<key>key</key>
+			<string>disableCancelPhrase</string>
+			<key>label</key>
+			<string>Disable Cancel Phrase</string>
+			<key>PostNotification</key>
+			<string>me.shymemoriees.ashleypreferences/ReloadPrefs</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSSwitchCell</string>
+			<key>default</key>
+			<false/>
+			<key>defaults</key>
+			<string>me.shymemoriees.ashleypreferences</string>
+			<key>key</key>
+			<string>disableConfirmPhrase</string>
+			<key>label</key>
+			<string>Disable Confirm Phrase</string>
+			<key>PostNotification</key>
+			<string>me.shymemoriees.ashleypreferences/ReloadPrefs</string>
+		</dict>
+
+		<!-- Support Me -->
+		<dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+			<key>label</key>
+			<string>Support Me</string>
+		</dict>
+		<dict>
+			<key>cellClass</key>
+			<string>HBLinkTableCell</string>
+			<key>label</key>
+			<string>Little Donation 🌺</string>
+			<key>subtitle</key>
+			<string>Helps Me To Pay For My Server</string>
+			<key>url</key>
+			<string>https://paypal.me/ShyMemoriees</string>
+		</dict>
+		<dict>
+			<key>cellClass</key>
+			<string>HBLinkTableCell</string>
+			<key>label</key>
+			<string>Feature Request? ✨</string>
+			<key>subtitle</key>
+			<string>Send Me An Email With Your Request</string>
+			<key>url</key>
+			<string>mailto:shymemoriees@yahoo.com?subject=Ashley%20Feature%20Request</string>
+		</dict>
+		<dict>
+			<key>cellClass</key>
+			<string>HBLinkTableCell</string>
+			<key>label</key>
+			<string>Source Code 🌙</string>
+			<key>subtitle</key>
+			<string>Github</string>
+			<key>url</key>
+			<string>https://github.com/ShyMemoriees/Ashley</string>
+		</dict>
+		<dict>
+			<key>cellClass</key>
+			<string>HBLinkTableCell</string>
+			<key>label</key>
+			<string>Found A Bug? 🌧</string>
+			<key>subtitle</key>
+			<string>Leave A Bug Report Here</string>
+			<key>url</key>
+			<string>https://github.com/ShyMemoriees/Ashley/issues/new</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+			<key>label</key>
+			<string>Icon Design</string>
+		</dict>
+		<dict>
+            <key>action</key>
+            <string>twittertaki</string>
+            <key>cell</key>
+            <string>PSButtonCell</string>
+            <key>label</key>
+            <string>@74k1_</string>
+            <key>cellClass</key>
+            <string>HBTwitterCell</string>
+            <key>label</key>
+            <string>taki</string>
+            <key>user</key>
+            <string>74k1_</string>
+        </dict>
+		<dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+			<key>footerText</key>
+			<string>Ashley By ShyMemoriees and MrGcGamer, Made With ❤️</string>
+			<key>isStaticText</key>
+			<true/>
+		</dict>
+
+	</array>
+	<key>title</key>
+	<string>Ashley</string>
+</dict>
+</plist>

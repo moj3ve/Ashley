@@ -1,0 +1,13 @@
+Package: me.shymemoriees.ashley
+Name: Ashley
+Depends: mobilesubstrate, ws.hbang.common (>= 1.14)
+Architecture: iphoneos-arm
+Description: Ashley, The Cute Kind Of A Reminder
+Maintainer: ShyMemoriees, MrGcGamer <shymemoriees@yahoo.com>
+Author: ShyMemoriees, MrGcGamer <shymemoriees@yahoo.com>
+Section: Tweaks
+Depiction: https://repo.shymemoriees.me/depictions/ash/index.html
+SileoDepiction: https://repo.shymemoriees.me/depictions/ash/ash.json
+Icon: https://repo.shymemoriees.me/depictions/ash/assets/icon.png
+Version: 1.0
+Installed-Size: 1416
